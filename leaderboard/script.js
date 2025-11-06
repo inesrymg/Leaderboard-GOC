@@ -1,47 +1,47 @@
 const competitionData = [
     { 
         club: "ENSIA tech community", 
-        sigil: "./assets/ss203108.png", 
+        sigil: "assets/ss203108.png", 
         categories: { dev: 1500, design: 800, ai: 2200, uiux: 1000 } 
     },
     { 
         club: "CSE Club", 
-        sigil: "", 
+        sigil: "assets/ss203402.png", 
         categories: { dev: 2100, design: 1200, ai: 1400, uiux: 900 } 
     },
     { 
         club: "Micro Club", 
-        sigil: "https://via.placeholder.com/45/ffaa00/ffffff?text=L",
+        sigil: "assets/ss213955.png",
         categories: { dev: 900, design: 2500, ai: 1100, uiux: 1800 } 
     },
     { 
         club: "Shellmates", 
-        sigil: "https://via.placeholder.com/45/004080/ffffff?text=K", 
+        sigil: "assets/shellmates.png", 
         categories: { dev: 1800, design: 1500, ai: 1900, uiux: 1100 } 
     },
     { 
         club: "GDG Algiers", 
-        sigil: "https://via.placeholder.com/45/006400/ffffff?text=S", 
+        sigil: "assets/ss203822.png", 
         categories: { dev: 1200, design: 1000, ai: 1300, uiux: 1700 } 
     },
     { 
         club: "VIC Club", 
-        sigil: "https://via.placeholder.com/45/ffd700/ffffff?text=S", 
+        sigil: "assets/ss214146.png", 
         categories: { dev: 800, design: 900, ai: 1000, uiux: 1200 } 
     },
     {
         club: "Ingeniums Club",
-        sigil: "https://via.placeholder.com/45/ffd700/ffffff?text=S",
+        sigil: "assets/ss204016.png",
         categories: { dev: 900, design: 500, ai: 700, uiux: 800}
     },
     {
         club: "MECA CLUB USTHB",
-        sigil: "https://via.placeholder.com/45/ffd700/ffffff?text=S",
+        sigil: "assets/ss204051.png",
         categories: { dev: 800, design: 800, ai: 750, uiux: 1000}
     },
     {
         club: "CAP Club",
-        sigil: "https://via.placeholder.com/45/ffd700/ffffff?text=S",
+        sigil: "assets/ss204128.png",
         categories: { dev: 1000, design: 400, ai: 600, uiux: 600}
     },
 ];
@@ -74,8 +74,8 @@ function renderPodium(topThree) {
     
     const rankIcons = {
         'rank-1': '<i class="fas fa-crown"></i>',
-        'rank-2': '<i class="fas fa-shield-alt"></i>',
-        'rank-3': '<i class="fas fa-scroll"></i>'
+        'rank-2': '<i class="fas fa-hand-fist"></i>',
+        'rank-3': '<i class="fas fa-shield-halved"></i>'
     };
 
     let html = '';

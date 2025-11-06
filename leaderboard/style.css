@@ -2,14 +2,11 @@
     --color-dark: #201f1f;
     --color-stone: #F0F0F0;
     --color-gold: #deab45;
-    --color-silver: #a9b7c1;
-    --color-bronze: #8b5a2b;
+    --color-silver: #C0C0C0;
+    --color-bronze:#CD7F32;
     --color-parchment:#A9A9A9;
-    --color-blue: #669ACC;
     --color-red: #CC0001;
-    --color-forest: #0B5345;
     --color-grey: #707070;
-    --color-orange: #c95c37;
     --font-heading: 'Cinzel Decorative', serif;
     --font-body: 'Inter', sans-serif;
 }
@@ -104,19 +101,19 @@ h1 {
 
 .rank-2 .podium-card {
     background: linear-gradient(to top, #000010, #11015e);
-    border: 4px solid var(--color-grey);
+    border: 3px solid var(--color-silver);
     height: 80%;
 }
 
-.rank-2 .podium-rank-icon { color: var(--color-grey); }
+.rank-2 .podium-rank-icon { color: var(--color-silver); }
 
 .rank-3 .podium-card {
     background: linear-gradient(to top, #000010, #11015e);
-    border: 4px solid var(--color-orange);
+    border: 3px solid var(--color-bronze);
     height: 60%;
 }
 
-.rank-3 .podium-rank-icon { color: var(--color-orange); }
+.rank-3 .podium-rank-icon { color: var(--color-bronze); }
 
 .podium-card .club-name {
     font-family: var(--font-heading);
@@ -182,11 +179,11 @@ h1 {
 }
 
 .club-sigil {
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid var(--color-gold);
+    border: 1.5px solid var(--color-gold);
     padding: 2px;
 }
 
