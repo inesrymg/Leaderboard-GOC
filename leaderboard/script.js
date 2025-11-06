@@ -1,12 +1,12 @@
 const competitionData = [
     { 
         club: "ENSIA tech community", 
-        sigil: "https://via.placeholder.com/45/ff0000/ffffff?text=D", 
+        sigil: "./assets/ss203108.png", 
         categories: { dev: 1500, design: 800, ai: 2200, uiux: 1000 } 
     },
     { 
         club: "CSE Club", 
-        sigil: "https://via.placeholder.com/45/999999/ffffff?text=W", 
+        sigil: "", 
         categories: { dev: 2100, design: 1200, ai: 1400, uiux: 900 } 
     },
     { 
